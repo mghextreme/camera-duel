@@ -16,7 +16,7 @@ export default new Router({
     {
       path: '/duel',
       name: 'duel',
-      component: Duel
+      component: Duel,
     },
     {
       path: '/about',

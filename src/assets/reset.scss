@@ -1,3 +1,16 @@
+* {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  line-height: 1.2em;
+  color: inherit;
+}
+
 html, body {
   display: block;
   position: relative;
@@ -9,17 +22,19 @@ html, body {
   background: #eee;
   color: #444;
   font-size: 16px;
-}
-
-* {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: inherit;
-  font-size: 1em;
+  line-height: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div {
+  box-sizing: border-box;
 }
