@@ -35,8 +35,6 @@ export default class Duel extends Vue {}
   justify-content: space-between;
   width: 100%;
   height: 100vh;
-  color: #ddd;
-  background: #111;
 
   .images {
     flex: 0 0 auto;
@@ -75,7 +73,7 @@ export default class Duel extends Vue {}
         }
 
         &:hover {
-          border-width: 2em;
+          border-width: 1em;
 
           img {
             transform: scale(1.15);
