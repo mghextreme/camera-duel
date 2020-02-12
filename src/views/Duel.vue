@@ -73,10 +73,10 @@ export default class Duel extends Vue {}
         }
 
         &:hover {
-          border-width: 1em;
+          border-width: 0.5em;
 
           img {
-            transform: scale(1.15);
+            transform: scale(1.05);
           }
         }
       }

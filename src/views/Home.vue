@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    Home
+    <h1>Camera Duel</h1>
+    <router-link to="/duel">Start voting</router-link>
   </div>
 </template>
 
